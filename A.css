@@ -1,0 +1,303 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+ width: 1600px;
+ 
+}
+.SSS{
+	float :left;
+	margin-left: 263px;
+	
+}
+.TTT{
+	background-color: #282923;
+	height: 700px;
+    width: 1600px;
+}
+
+.A{
+background-color: brown;
+height:47px ;
+width:1600px;
+}
+#navbar{
+list-style-type: none;
+padding:0;
+margin: 0;
+background-color: #FF7800;
+min-height: 45px;
+min-width: 500px;
+border-bottom: 4px solid black;
+
+}
+#navbar li{
+float:left;
+padding:8px;
+background-color: #282923;
+border-right:1px solid;
+width: 112px;
+transition: 0.3s all;
+
+}
+#navbar li:last-child{
+border-right:none;
+position: relative;
+
+}
+#navbar li:hover{
+background-color:grey;
+
+}
+#navbar li a{
+
+text-decoration: none;
+color: red;
+text-align: italic;
+font-size: 25px;
+
+}
+#navbar li ul{
+list-style-type: none;
+padding: 12px;
+position: absolute;
+margin-top: -2px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: -9999999px;
+}
+#navbar li:hover ul{
+	margin-left: -20px;
+
+}
+
+#navbar li ul li{
+float:left;
+padding:8px;
+background-color: #282923;
+border-right:1px solid;
+float:none;
+border-right: none;
+border-left: none;
+border-bottom: 1px solid;
+
+}
+#navbar li ul li:last-child{
+border-bottom: none;
+}
+#navbar li ul li div{
+margin-left:-9999999px;
+color: red;
+
+}
+#navbar  li ul li:hover div{
+margin-left: 120px;
+margin-bottom:0px;
+color:red;
+background-color: yellow;
+height: 100px;
+width: 700px
+}
+
+#EEE{
+
+padding:0;
+background-color: #FC9700;
+float: left;
+width: 300px;
+height: 500px;
+margin:8px;
+}
+#EE{
+
+padding:0;
+background-color:#FC9700;
+float :left;
+width: 300px;
+height: 500px;
+margin:8px;
+}
+#E{
+
+padding:0; 
+background-color: #FC9700;
+float:left;
+width: 300px;
+height:500px;
+margin:8px;
+}
+.X{
+	width: 300px;
+	height: 300px;
+}
+.XY{
+	width: 300px;
+	height: 300px;
+}
+.XZ{
+	width: 300px;
+	height: 300px;
+}
+#EEE h2{
+	text-align: center;
+}
+#EE h2{
+	text-align: center;
+}
+#E h2{
+	text-align: center;
+}
+.more1{
+ background-color: orange;
+ text-align: center;
+ color: red;
+ display: block;
+ height: 20px;
+ 
+}
+.more2{
+background-color: orange;
+ text-align: center;
+ color: red;
+ display: block;
+ height: 20px;
+ margin-top: 17px;
+}
+.more3{
+background-color: orange;
+ text-align: center;
+ color: red;
+ display: block;
+ height: 19px;
+ margin-top: 53px;
+
+}
+#EEE p{
+ padding-left: 6px;
+
+}
+#EE p{
+ padding-left: 6px;
+
+}
+#E p{
+ padding-left: 6px;
+
+}
+.game{
+    height: 386px;
+    width: 1600px;
+    margin:0px;
+
+
+}
+.game img{
+	height: 388px;
+	width: 1600px;
+}
+.other{
+	background-color: white;
+	height: 600px;
+	width: 1600px;
+
+
+}
+.image{
+	height: 400px;
+	width:664px;
+	margin-left: 458px;
+	margin-top: 50px;
+	border: 2px solid #FFAF34;
+
+}
+.other h2{
+ 	text-align: center;
+ 	color: #6424C9;
+ 	padding-top:20px; 
+
+}
+
+.other div p{
+	
+	padding-top:30px;
+	padding-left:266px;
+	padding-right:286px;
+	text-align: center;
+	size: 6px;
+	color: #6424C9;
+
+}
+.tag {
+	float: left;
+	margin-left: 388px;
+	margin-top: 38px;
+
+
+}
+.icon1{
+
+	background-color: #8E36BF;
+	width: 256px;
+	height: 340px;
+	margin-left: 0px;
+	float: left;
+
+
+}
+.tag  div p{
+		color:#FFA535; 
+		padding: 0px;
+
+
+
+}
+
+.icon1{
+
+	background-color: #8E36BF;
+	width: 256px;
+	height: 390px;
+	margin-left: 4px;
+	float: left;
+
+
+}
+
+
+.icon2{
+
+	background-color: #8E36BF;
+	width: 256px;
+	height: 390px;
+	margin-left: 4px;
+	float: left;
+
+
+}
+
+.icon3{
+
+	background-color: #8E36BF;
+	width: 256px;
+	height: 390px;
+	margin-left: 4px;
+	float: left;
+
+
+}
+.adiat{
+     
+ 	width: 1600px;
+    height: 388px;
+
+
+}
+.SSSS{
+    
+    width: 1600px;
+    height: 50px;
+
+ color: black
+
+}
