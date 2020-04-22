@@ -1,7 +1,144 @@
-*{
-margin:0;
-padding:0;
+* {
+	margin:0;
+	padding:0;
+	--handleheight:120px;
+	--handlewidth:240px;
+	--handlecolor:grey;
+	--handle_border_radius:30%;
 }
+
+
+#gamePadSection {
+	width:auto;
+	height: 5in;
+	background: black;
+}
+
+#gamePad {
+	position:relative;
+	left:250px;
+}
+
+#left_handle {
+	margin:auto;
+	position:absolute;
+	height: var(--handleheight);
+	width: var(--handlewidth);
+	background: var(--handlecolor);
+	left:130px;
+	top:200px;
+	transform:rotate(120deg);
+	border-radius: var(--handle_border_radius);
+}
+
+#right_handle {
+	margin:auto;
+	position:absolute;
+	height: var(--handleheight);
+	width: var(--handlewidth);
+	background: var(--handlecolor);
+	left:450px;
+	top:200px;
+	transform:rotate(60deg);
+	border-radius: var(--handle_border_radius);
+}
+
+#gamePadBody {
+	position:absolute;
+	left:250px;
+	top:150px;
+	background-color: var(--handlecolor);
+	width:300px;
+	height:140px;
+	border-radius: 30%;
+}
+
+#gamePadBody h1 {
+	position: absolute;
+	left:100px;
+	top:55px;
+}
+
+#left_stick_container {
+	position:absolute;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border-style: ridge;
+	border-color: black;
+	left:265px;
+	top:178px;
+}
+
+#left_stick {
+	position:absolute;
+	background-color: black;
+	height:43px;
+	width:43px;
+	border-radius: 50%;
+	box-shadow: 13px 14px 10px 8px green;
+
+}
+
+#right_buttons_container {
+	position:absolute;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border-style: ridge;
+	border-color: black;
+	left:478px;
+	top:178px;
+
+}
+
+#button1 {
+	border-radius: 50%;
+	height:20px;
+	width:20px;
+	position: absolute;
+	background-color: limegreen;
+	left:24px;
+	top:4px;
+	text-align: center;
+}
+
+#button2 {
+	border-radius: 50%;
+	height:20px;
+	width:20px;
+	position: absolute;
+	background-color: cyan;
+	top:47px;
+	left: 25px;
+	text-align: center;
+}
+
+#button3 {
+	border-radius: 50%;
+	height:20px;
+	width:20px;
+	position: absolute;
+	background-color: red;
+	left:46px;
+	top:24px;
+	text-align: center;
+}
+
+#button4 {
+	border-radius: 50%;
+	height:20px;
+	width:20px;
+	position: absolute;
+	background-color: yellow;
+	top:25px;
+	left:3px;
+	text-align: center;
+}
+
+
+
+
 body{
  width: 1600px;
  
